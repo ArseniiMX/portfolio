@@ -1,0 +1,25 @@
+:root{
+  --bg:#ffffff;
+  --text:#0b0b0b;
+  --muted:#555;
+  --accent:#004f7a;
+  --card:#f7f9fb;
+  --container: 48rem;
+  font-family: "Inter", Arial, sans-serif;
+}
+*{box-sizing:border-box}
+body{margin:0; background:var(--bg); color:var(--text); line-height:1.5}
+.container{max-width:var(--container); margin:0 auto; padding:24px}
+.site-header{background:linear-gradient(90deg,#0f5b72,#0b4b61); color:white; padding:28px 0; margin-bottom:18px}
+.preview{width:100%; border-radius:6px; margin-bottom:10px}
+.projects .cards{display:grid; grid-template-columns:repeat(auto-fill,minmax(260px,1fr)); gap:16px}
+.card{background:var(--card); padding:16px; border-radius:8px; box-shadow:0 1px 3px rgba(0,0,0,0.06)}
+.card h3{margin-top:0}
+.meta{color:var(--muted); font-size:0.9rem}
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
