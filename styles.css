@@ -23,3 +23,9 @@ a {
 a:hover {
     text-decoration: underline;
 }
+.project-link {
+    color: #000000;
+}
+.project-link:hover {
+    text-decoration: underline;
+}
